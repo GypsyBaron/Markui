@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainController">
+   <children>
+      <TableView fx:id="lentele" onMouseClicked="#openRecord" prefHeight="400.0" prefWidth="339.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <VBox prefHeight="400.0" prefWidth="268.0">
+         <children>
+            <TextField fx:id="vardas" promptText="Vardas" />
+            <TextField fx:id="pavarde" promptText="Pavarde" />
+            <CheckBox fx:id="pirm" mnemonicParsing="false" text="CheckBox" />
+            <CheckBox fx:id="antr" mnemonicParsing="false" text="CheckBox" />
+            <CheckBox fx:id="trec" mnemonicParsing="false" text="CheckBox" />
+            <CheckBox fx:id="ketv" mnemonicParsing="false" text="CheckBox" />
+            <CheckBox fx:id="penk" mnemonicParsing="false" text="CheckBox" />
+            <CheckBox fx:id="sest" mnemonicParsing="false" text="CheckBox" />
+            <CheckBox fx:id="sekm" mnemonicParsing="false" text="CheckBox" />
+            <Button mnemonicParsing="false" onAction="#saugotiDarbuotoja" text="Save" />
+         </children>
+      </VBox>
+   </children>
+</HBox>

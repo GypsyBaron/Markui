@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.EditWindowController">
+    <children>
+        <Label fx:id="darbId" text="Label" />
+        <TextField fx:id="vardas" promptText="Vardas" />
+        <TextField fx:id="pavarde" promptText="Pavarde" />
+        <CheckBox fx:id="pirm" mnemonicParsing="false" text="CheckBox" />
+        <CheckBox fx:id="antr" mnemonicParsing="false" text="CheckBox" />
+        <CheckBox fx:id="trec" mnemonicParsing="false" text="CheckBox" />
+        <CheckBox fx:id="ketv" mnemonicParsing="false" text="CheckBox" />
+        <CheckBox fx:id="penk" mnemonicParsing="false" text="CheckBox" />
+        <CheckBox fx:id="sest" mnemonicParsing="false" text="CheckBox" />
+        <CheckBox fx:id="sekm" mnemonicParsing="false" text="CheckBox" />
+        <Button mnemonicParsing="false" text="Save" />
+    </children>
+</VBox>
